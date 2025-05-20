@@ -1,0 +1,27 @@
+#1. Valid Strings - Bracket Matching Problem
+
+Problem Statement
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+A string is considered **valid** if:
+1. Open brackets must be closed by the **same type** of brackets.
+2. Open brackets must be closed in the **correct order**.
+3. Every close bracket must have a corresponding open bracket of the same type.
+
+Expected Time Complexity
+- **O(n)** per test case
+
+Input Format
+- Each test contains multiple test cases.
+- The first line of input contains a single integer `t`  
+  `1 ≤ t ≤ 100` — the number of test cases.
+- The next `t` lines each contain a string `s` consisting only of the characters `()[]{}`.
+
+Output Format
+- For each test case, output `true` if the string is valid, else `false`, each on a new line.
+
+Input1: s = "()"
+Output1: true
+Input2: s = "()[]{}"
+Output2: true
+Input3: s = "(]"
+Output3: false
